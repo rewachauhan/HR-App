@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hrapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hrapp.HRActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hrapp.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.WelcomeActivity"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.FeedbackActivity"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.ServicesActivity"
+            android:label="@string/title_activity_services" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.PlumbingActivity"
+            android:label="@string/title_activity_plumbing" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.ElectricityActivity"
+            android:label="@string/title_activity_electricity" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.CleaningActivity"
+            android:label="@string/title_activity_cleaning" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.TaxiActivity"
+            android:label="@string/title_activity_taxi" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.BeautyActivity"
+            android:label="@string/title_activity_beauty" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.PestActivity"
+            android:label="@string/title_activity_pest" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.FeedCActivity"
+            android:label="@string/title_activity_feed_c" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.FeedTActivity"
+            android:label="@string/title_activity_feed_t" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.FeedPlActivity"
+            android:label="@string/title_activity_feed_pl" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.FeedEActivity"
+            android:label="@string/title_activity_feed_e" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.FeedPeActivity"
+            android:label="@string/title_activity_feed_pe" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.VideoActivity"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.FActivity"
+            android:label="@string/title_activity_f" >
+        </activity>
+        <activity
+            android:name="com.example.hrapp.FeedActivity"
+            android:label="@string/title_activity_feed" >
+        </activity>
+    </application>
+
+</manifest>

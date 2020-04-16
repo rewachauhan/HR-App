@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/feed"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FeedActivity" >
+
+    <ImageView
+        android:id="@+id/imageButton1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textGrid"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/z1" />
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48dp"
+        android:src="@drawable/z11" />
+
+    <ImageView
+        android:id="@+id/imageButton3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignTop="@+id/imageView1"
+        android:src="@drawable/z4" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/z2" />
+
+    <ImageView
+        android:id="@+id/imageButton4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/imageButton5"
+        android:src="@drawable/z5" />
+
+    <ImageView
+        android:id="@+id/imageButton5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/z16" />
+
+    <TextView
+        android:id="@+id/textGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Select the service"
+        android:textColor="@android:color/black"
+        android:textSize="34sp" />
+
+</RelativeLayout>
